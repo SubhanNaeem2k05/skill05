@@ -1,4 +1,4 @@
-require("dotenv").config();
+require('dotenv').config();
 const server = require("./server");
 const port = process.env.DB_PORT || 3001;
 console.log(process.env.PORT);
