@@ -2,6 +2,7 @@ const { Sequelize } = require("sequelize");
 const sequelize = new Sequelize("skillqfive", "doadmin", "AVNS_CFHFofZJCUaULLdSOk9", {
   host: "skill05database-do-user-14809774-0.c.db.ondigitalocean.com",
   dialect: "mysql",
+  port: 25060
 });
 try {
   sequelize.authenticate();
